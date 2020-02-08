@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ihinsdale/react-native-push-notification-ios-response.git",
-    "baseUrl": "https://github.com/ihinsdale/react-native-push-notification-ios-response"
+    "url": "git+https://github.com/Giraf-PBC/react-native-push-notification-ios-response.git",
+    "baseUrl": "https://github.com/Giraf-PBC/react-native-push-notification-ios-response"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
     "name": "Ian Hinsdale",
-    "email": "ian@ianhinsdale.com"
+    "email": "engineering@giraf.app"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
