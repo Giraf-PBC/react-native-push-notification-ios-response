@@ -9,9 +9,10 @@
 `$ react-native link react-native-push-notification-ios-response`
 
 ## Usage
+
 ```javascript
-import PushNotificationIosResponse from 'react-native-push-notification-ios-response';
+import GPushNotificationIOSResponse from "react-native-push-notification-ios-response";
 
 // TODO: What to do with the module?
-PushNotificationIosResponse;
+GPushNotificationIOSResponse;
 ```

@@ -1,7 +1,6 @@
-#import "PushNotificationIosResponse.h"
+#import "GPushNotificationIOSResponse.h"
 
-
-@implementation PushNotificationIosResponse
+@implementation GPushNotificationIOSResponse
 
 RCT_EXPORT_MODULE()
 

@@ -1,5 +1,5 @@
-import { NativeModules } from 'react-native';
+import { NativeModules } from "react-native";
 
-const { PushNotificationIosResponse } = NativeModules;
+const { GPushNotificationIOSResponse } = NativeModules;
 
-export default PushNotificationIosResponse;
+export default GPushNotificationIOSResponse;
