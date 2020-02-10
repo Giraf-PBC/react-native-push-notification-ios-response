@@ -7,7 +7,7 @@ extern NSString *const NotificationResponseReceived;
 typedef void (^GNotificationResponseCallback)(void);
 
 #if !TARGET_OS_TV
-+ (void)didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(NotificationResponseCallback)completionHandler;
++ (void)didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(GNotificationResponseCallback)completionHandler;
 #endif
 
 @end

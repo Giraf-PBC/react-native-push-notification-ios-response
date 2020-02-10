@@ -22,7 +22,7 @@ NSString *const RCTNotificationResponseReceived = @"NotificationResponseReceived
 #if !TARGET_OS_TV
 
 /*
-* Copied from RNCPushNotificationIOS.
+* Mostly copied from RNCPushNotificationIOS.
 */
 static NSDictionary *RCTFormatUNNotification(UNNotification *notification)
 {
@@ -111,7 +111,7 @@ RCT_EXPORT_MODULE()
     self.notificationResponseCallbacks[notificationIdentifier] = completionHandler;
   }
 
-  NSDictionary *formattedResponse = RCTFormatUNNotificationResponse(response)
+  NSDictionary *formattedResponse = RCTFormatUNNotificationResponse(response);
 
   [self sendEventWithName:@"notificationResponseReceived" body:formattedResponse];
 }
