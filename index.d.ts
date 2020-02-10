@@ -1,7 +1,7 @@
 // Type definitions for Giraf-PBC/react-native-push-notification-ios-response
 // Project: https://github.com/Giraf-PBC/react-native-push-notification-ios-response
 
-interface PushNotification {
+export interface PushNotification {
   identifier: string
   date: string
   title: string | null
