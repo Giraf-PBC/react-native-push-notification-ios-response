@@ -1,6 +1,18 @@
 // Type definitions for Giraf-PBC/react-native-push-notification-ios-response
 // Project: https://github.com/Giraf-PBC/react-native-push-notification-ios-response
 
+export interface PushNotificationUserInfo {
+  aps: {
+    alert?: {
+      title?: string
+      subtitle?: string
+      body?: string
+    }
+    badge?: number
+    sound?: string
+  }
+}
+
 export interface PushNotification {
   identifier: string
   date: string
@@ -10,17 +22,7 @@ export interface PushNotification {
   badge: number | null
   category: string | null
   'thread-id': string | null
-  userInfo: {
-    aps: {
-      alert?: {
-        title?: string
-        subtitle?: string
-        body?: string
-      }
-      badge?: number
-      sound?: string
-    }
-  }
+  userInfo: PushNotificationUserInfo
 }
 
 export interface PushNotificationResponse {
