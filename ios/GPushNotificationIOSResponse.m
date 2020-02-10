@@ -39,7 +39,9 @@ static NSDictionary *RCTFormatUNNotification(UNNotification *notification)
   }
 
   formattedNotification[@"title"] = RCTNullIfNil(content.title);
+  formattedNotification[@"subtitle"] = RCTNullIfNil(content.subtitle);
   formattedNotification[@"body"] = RCTNullIfNil(content.body);
+  formattedNotification[@"badge"] = RCTNullIfNil(content.badge);
   formattedNotification[@"category"] = RCTNullIfNil(content.categoryIdentifier);
   formattedNotification[@"thread-id"] = RCTNullIfNil(content.threadIdentifier);
   formattedNotification[@"userInfo"] = RCTNullIfNil(RCTJSONClean(content.userInfo));
