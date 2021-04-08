@@ -1,7 +1,7 @@
 // Type definitions for Giraf-PBC/react-native-push-notification-ios-response
 // Project: https://github.com/Giraf-PBC/react-native-push-notification-ios-response
 
-export interface PushNotificationUserInfo {
+export type PushNotificationUserInfo = {
   aps: {
     alert?: {
       title?: string
@@ -13,7 +13,7 @@ export interface PushNotificationUserInfo {
   }
 }
 
-export interface PushNotification {
+export type PushNotification = {
   identifier: string
   date: string
   title: string | null
@@ -25,7 +25,7 @@ export interface PushNotification {
   userInfo: PushNotificationUserInfo
 }
 
-export interface PushNotificationResponse {
+export type PushNotificationResponse = {
   _notificationResponseCompleteCallbackCalled: boolean
   _notificationIdentifier: string
   _notification: PushNotification
